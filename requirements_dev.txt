@@ -1,3 +1,4 @@
 ipykernel==6.29.4
+mypy==1.9.0
 pre-commit==3.7.0
 ruff==0.4.1

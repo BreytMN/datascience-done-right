@@ -21,5 +21,5 @@ venv: ## Create virtual env
 	pip install uv; \
 	uv pip install \
 		-r requirements.txt \
-		-r requirements_dev.txt \
+		-r requirements_dev.txt; \
 	pre-commit install;

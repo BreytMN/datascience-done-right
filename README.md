@@ -7,6 +7,7 @@ Data science tips and tricks to enhance data analysis and predictive modeling.
 
 ## Tutorials:
 * [Linear Extrapolation with non-linear algorithms](src/regression/extrapolation.ipynb)
+* [Upskilling a no-skill classifier with Conformal Prediction](src/regression/no_skill.ipynb)
 
 ## Using this repo
 Clone the repository:
