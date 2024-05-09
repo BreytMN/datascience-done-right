@@ -2,12 +2,28 @@
 
 Data science tips and tricks to enhance data analysis and predictive modeling.
 
+Most of the tips shown here aren't directly useful to the day-to-day job, but they'll demistify many concepts around machine learning and data science. This knowledge will hopefully build up to the point it'll help you achieve greater results as the blackbox around many `pip install magic-buttons` used daily are opened.
+
+## Table of Contents
 * [Tutorials](#tutorials)
 * [Using this repo](#using-this-repo)
+* [License](#license)
+
+### About me
+#### Links
+* [E-mail](mailto:lunde@adobe.com)
+* [GitHub](https://github.com/BreytMN)
+* [LinkedIn](https://www.linkedin.com/in/breytner-nascimento/)
+* [Portfolio](https://portfolio.breytmn.com)
 
 ## Tutorials:
-* [Linear Extrapolation with non-linear algorithms](src/regression/extrapolation.ipynb)
-* [Upskilling a no-skill classifier with Conformal Prediction](src/regression/no_skill.ipynb)
+
+### Classification
+* [Upskilling a no-skill classifier with Conformal Prediction](notebooks/classification/no_skill.ipynb) - updated 2024-05-09
+* ["You can't classify with linear regression"](notebooks/classification/linear_regression_classifier.ipynb) - added 2024-05-09
+
+### Regression
+* [Linear Extrapolation with non-linear algorithms](notebooks/regression/extrapolation.ipynb) - updated 2024-05-09
 
 ## Using this repo
 Clone the repository:
@@ -33,3 +49,6 @@ make venv
 source .venv/bin/activate
 ```
 The first command will create a virtual environment and install all libraries needed to run any code inside this repository. The second command will activate the environment.
+
+## License
+[MIT License](LICENSE)
